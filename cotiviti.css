@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+header{
+    background-color: #35176e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: small;
+}
+
+ #menu li{
+    display: inline-block; 
+} 
+nav{
+    float: right;
+}
+/* #section */
+#intro{
+    background-color: #35176e;
+    background-image: url(Cotiviti\ Assets/banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 50% auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-top: 79px;
+}
+h1{
+    color: white;
+}
+#white-box{
+    width: 40%;
+    background-color: white;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+#white-box small{
+    color: #7f7f7f;
+}
+#white-box h2{
+    color: #31006f;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#white-box p{
+    color: rgb(214, 22, 115);
+}
+#after-intro{
+    background-color: white;
+    background-image: url(Cotiviti\ Assets/building.png);
+    background-repeat: no-repeat;
+    padding-top: 5cap;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    background-position: center right;
+}
+#para{
+    padding-top: 20px;
+}
+.neymar{
+    margin-left: 130px;
+}
+/* text-decoration: none; */
+#after-intro a{
+    text-decoration: none;
+    color: blue;
+}
+#after-intro a:hover{
+    color: rgb(222, 69, 156);
+}
+.join{
+    padding: 50px;
+}
+.java{
+    padding-left: 80px;
+    padding-right: 100px;
+}
+.java a{
+    text-decoration: none;
+    color: rgb(204, 46, 159);
+    /* justify-content: center; */
+    font-size: 1.5rem;
+    display: block;
+}
+
+.java a:hover{
+    color: rgb(40, 40, 125);
+}
+.join .container h2{
+    text-align: center;
+    font-weight: normal;
+    color: #2e3192;
+    padding-bottom: 10px;  
+    font-size: 2.5em;
+}
+.joinheader{
+    text-align: center;
+}
+#last{
+    background-image: url(Cotiviti\ Assets/join.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 150px;
+}
+
+.java a img{
+    float: right;
+}
+.position .search{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.position .search strong{
+    font-size: 30px;
+    font-weight: 100;
+}
+#morelinks a{
+    text-decoration: none;
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    color: blue;
+    border-radius: 2px;
+    width: 120px;
+    display: inline-block;
+}
+#morelinks a:hover{
+   background-color: rgb(203, 44, 124);
+   border-color:  rgb(203, 44, 124);
+   color: white;
+}
+#morelinks{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#morelinks  a:first-child{
+    margin-right: 15px;
+}
+#parallex{
+    background-image: url(Cotiviti\ Assets/parallax-home.jpg);
+    height: 400px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.container #top-section .navigate{
+    width: 70%;
+}
+.navigate a{
+    display: block;
+    text-decoration: none;
+    font-size: small;
+    margin-bottom: 10px;
+} 
+.navigate a:hover{
+    color: rgb(196, 59, 109);
+}  
+.navigate div{
+    display: inline-block;
+    padding-right: 40px;
+}
+.navigate h2{
+    padding-bottom: 10px;
+}
+.container .contact-us{
+    width: 25%;
+
+}
+#top-section{
+    display: flex; 
+    /* display: inline-block; */
+    padding-top: 40px;
+}
+.container .lastsection{
+    margin-top: 40px;
+    background-image: url(logo_footer.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-bottom: 10px;
+}
+#foot{
+    background-color: #eaeaea;
+    color: #666;
+    font-size: .9em;
+}
+#foot .container{
+    padding-bottom: 50px;
+}
+#foot .container h2{
+    color: #2e3192;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+.contact-us #c-u{
+    margin-top: 10px;
+    font-size: small;
+}
+.contact-us #c-u p{
+    line-height: 20px;
+}
+
+@media print {
+    #after-intro{
+        background-color: aqua;
+    }   
+}
+@media (max-width:500px){
+    header{
+        background-image: url(navicon.jpeg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: 40px;
+        
+    }
+    #menu{
+        display: none;
+    }
+    #intro{
+        background-image: none;
+    }
+    #white-box{
+        width: 600px;
+    }
+    #after-intro{
+        background-image: none;
+    }
+}
